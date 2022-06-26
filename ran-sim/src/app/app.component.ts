@@ -1,10 +1,19 @@
-import { Component } from '@angular/core';
+// import { Component } from '@angular/core';
+//
+// @Component({
+//   selector: 'sim-root',
+//   templateUrl: './app.component.html',
+//   styleUrls: ['./app.component.css']
+// })
+// export class AppComponent {
+//   title = 'ran-sim';
+// }
+import {Component} from "@angular/core";
 
 @Component({
   selector: 'sim-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `<view-map></view-map>`
 })
 export class AppComponent {
-  title = 'ran-sim';
+  pageTitle: string = "Radio Access Network Simulator";
 }
