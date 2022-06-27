@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+//@import "~leaflet/dist/leaflet.css";
+@import '~kubeflow/styles.scss';
+@import '~kubeflow/lib/fonts.scss';
+
+mat-form-field {
+  margin-bottom: 0.25rem;
+}
